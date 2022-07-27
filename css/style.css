@@ -1,0 +1,48 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  font-size: 1.6rem;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+}
+.header {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+.item {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin: 5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+.item:hover {
+  transform: translateY(-1rem);
+  transition: 0.5s;
+}
+.item:hover img{
+  opacity: 1;
+}
+.item img {
+  width: 20rem;
+  height: 25rem;
+  object-fit: cover;
+  object-position: bottom;
+  opacity: 0.6;
+}
+.item .content {
+padding: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
