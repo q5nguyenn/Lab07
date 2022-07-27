@@ -1,3 +1,0 @@
-var colors = ['white', 'black', 'custom'];
-colors[2] = 'beige';
-var el = document.getElementById(Element: 'colors');

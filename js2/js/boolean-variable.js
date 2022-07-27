@@ -1,7 +1,7 @@
 var inStock;
 var shipping;
 inStock = true;
-shipping = flase;
+shipping = false;
 var elStock = document.getElementById('stock');
 elStock.className = inStock;
 var elShip = document.getElementById('shipping');
